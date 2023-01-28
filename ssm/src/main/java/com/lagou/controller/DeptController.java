@@ -27,6 +27,8 @@ public class DeptController {
         List<Dept> deptlist = deptService.findAll();
         model.addAttribute("deptlist", deptlist);
         return "deptlist";
+
+
     }
 
     @RequestMapping("/findById")
